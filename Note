@@ -1,0 +1,24 @@
+B1: Xác định khoá chính khoá ngoại
+    creat table customers (
+    number int auto-increment primary key,
+    fullname varchar(225),
+    address varchar(225),
+    email varchar(225),
+    phone int,
+
+
+    );
+
+   creat table Accounts(
+   number int auto-increment primary key,
+   type varchar(225),
+   date date('yyyy-mm-dd'),
+   balance int(225)
+   );
+   creat Transactions(
+   number int auto-increment primary key,
+   date date('yyyy-mm-dd'),
+   amounts int(225),
+   descriptions varchar(552)
+   );
+
